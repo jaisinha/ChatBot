@@ -1,0 +1,44 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "statement",
+    "user_input": ["I", "like", "zebras", "lion", "tiger","parrots","bear","snakes","squirrels","dog","cat"],
+    "bot_response": "I wanted to be be a zookeeper but I ended up being a chatbot",
+    "required_words": ["like"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["can", "you", "list", "give", "a","of","top","coding","tutorials","on","youtube"],
+    "bot_response": "some of the channels are programming with mosh,clever programmer,maximilliam shwasrtzmuller",
+    "required_words": ["list", "top"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  }
+]
